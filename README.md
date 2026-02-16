@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repo](https://github.com/suzubu/testimonials-grid-section-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://suzubu.github.io/testimonials-grid-section-main/)
 
 ## My process
 
