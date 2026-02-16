@@ -36,12 +36,14 @@ html {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-top: 5rem;
+  margin: 5rem 0;
+  padding: 0 1.5rem;
 }
 
 .card {
-  width: 23rem;
-  padding: 2rem;
+  width: 100%;
+  max-width: 327px;
+  padding: 2.5rem;
   border-radius: 10px;
 }
 
@@ -61,22 +63,22 @@ h2 {
 }
 
 img {
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
 }
 
 .content {
-  /* width: 18rem; */
+  width: 100%;
 }
 
 .headline {
-  font-size: 1.55rem;
+  font-size: 1.7rem;
   margin: 1.2rem 0;
 }
 
 .quote {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 500;
   line-height: 1.4rem;
 }
