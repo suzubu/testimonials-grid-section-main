@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+:root {
+  /* Colours */
+  --purple-50: hsl(260, 100%, 95%);
+  --purple-300: hsl(264, 82%, 80%);
+  --purple-500: hsl(263, 55%, 52%);
+  --white: hsl(0, 0%, 100%);
+  --grey-100: hsl(214, 17%, 92%);
+  --grey-200: hsl(0, 0%, 81%);
+  --grey-400: hsl(224, 10%, 45%);
+  --grey-500: hsl(217, 19%, 35%);
+  --dark-blue: hsl(219, 29%, 14%);
+  --black: hsl(0, 0%, 7%);
+
+  /* Font */
+  --font-primary: "Barlow Semi Condensed", sans-serif;
+  --font-size-base: 13px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--font-size-base);
+  font-family: var(--font-primary);
+  background-color: var(--grey-100);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.card {
+  width: 23rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.title {
+  display: flex;
+  gap: 1rem;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.content {
+  /* width: 18rem; */
+}
+
+.headline {
+  font-size: 1.55rem;
+  margin: 1.2rem 0;
+}
+
+.quote {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+}
+
+#daniel {
+  background-color: var(--purple-500);
+  color: white;
+}
+
+#daniel-img {
+  border: 1.5px solid var(--purple-300);
+}
+
+#jonathan {
+  background-color: var(--grey-500);
+  color: white;
+}
+
+#jonathan-img {
+  border: 1.5px solid var(--white);
+}
+
+#jeanette {
+  background-color: var(--white);
+  color: var(--grey-500);
+}
+
+#patrick {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+#patrick-img {
+  border: 1.5px solid var(--purple-300);
+}
+
+#kira {
+  background-color: var(--white);
+  color: var(--grey-500);
+}
